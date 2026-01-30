@@ -1,0 +1,35 @@
+body { margin:0; overflow:hidden; font-family:Arial; background:black; }
+
+#scoreBoard {
+  position:absolute; top:10px; left:15px;
+  color:white; font-size:22px; z-index:10;
+}
+
+#backSeat {
+  position:absolute; bottom:10px; left:15px;
+  color:white; font-size:18px; z-index:10;
+}
+
+.controls {
+  position:absolute; bottom:20px;
+  width:100%; display:flex;
+  justify-content:space-around;
+}
+
+button {
+  width:70px; height:70px;
+  border-radius:50%; border:none;
+  font-size:16px; color:white;
+  background:rgba(0,0,0,0.6);
+  border:2px solid white;
+}
+
+#nitro { background:darkred; }
+
+#gameOverScreen {
+  position:absolute; width:100%; height:100%;
+  background:rgba(0,0,0,0.9);
+  color:white; display:none;
+  justify-content:center; align-items:center;
+  flex-direction:column; font-size:28px;
+}
